@@ -56,7 +56,9 @@ border-radius: 50%;
  font-weight: 500;
  font-style: 14px;
 }
-
+.nav-button{    
+    display: none;
+}
 
 
 .nav-link { 
@@ -100,10 +102,13 @@ line-height: 2;
 .services-row{  
 display: flex;
 column-gap: 30px;
+row-gap: 60px;
+flex-wrap: wrap;
 }
 
 .service-card{  
-
+flex: 1 1 0;
+min-width: 315;
 }
 
 .service-card-img {
